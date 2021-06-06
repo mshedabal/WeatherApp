@@ -1,0 +1,5 @@
+<div class="container" >
+    <weather-report [city]='city' 
+    *ngFor="let city of allCities" 
+    (emitEvent)="GetDailyReport($event)"></weather-report>
+</div>

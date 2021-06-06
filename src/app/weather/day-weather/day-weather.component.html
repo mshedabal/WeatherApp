@@ -1,0 +1,15 @@
+<div class="box">
+    <div class="Header">
+        {{day.dt | date:'medium'}}
+    </div>
+    <div class="report">
+        <div>
+            <span>Temperature:</span>
+            {{day.temp.morn}}
+        </div>
+        <div>
+            <span>Sea Level:</span>
+            {{day.pressure }}
+        </div>
+    </div>
+</div>

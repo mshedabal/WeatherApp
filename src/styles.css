@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+.container{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+div.box{
+    border: 1px solid black;
+    margin: 20px;
+    width: 200px;
+    height: auto;
+}
+
+div.Header{
+    font-weight: bold;
+    background-color:rebeccapurple;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+}
+
+div.report {
+    padding: 10px;
+    line-height: 2;
+}
+div.report span{
+    font-weight: bold;
+}

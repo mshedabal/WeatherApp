@@ -1,0 +1,19 @@
+<div class="box">
+    <div class="Header" (click)="GetDailyReport(city)">
+        {{city.name}}
+    </div>
+    <div class="report">
+        <div>
+            <span>Temperature:</span>
+            {{city.main.temp}}
+        </div>
+        <div>
+            <span>Sunrise:</span>
+            {{city.sys.sunrise | date:'medium'}}
+        </div>
+        <div>
+            <span>Sunset:</span>
+            {{city.sys.sunset | date:'medium'}}
+        </div>
+    </div>
+</div>
